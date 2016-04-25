@@ -102,11 +102,11 @@ html{
 }
 
 body{
-    padding-top: 3em;
+    padding-top: 1.2em;
 }
 
 h1{
-    font-size: 2em;
+    font-size: 1.2em;
     text-transform: lowercase;
 }
 
@@ -146,8 +146,22 @@ h5
 
 }
 
+ul{
+    list-style-type:none;
+    margin: right;
+    padding:0;
+    width: 1900px;
+    height: 900px;
+    
+}
 
 
+li a {
+    display: block;
+    background-color: #FFFF00;
+
+    height: 100px;
+}
 
 
 
