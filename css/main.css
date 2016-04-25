@@ -94,10 +94,39 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+html{
+    box-sizing: border-box;
+}
+*, * :before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    padding-top: 3em;
+}
+
+h1{
+    font-size: 2em;
+    text-transform: lowercase;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-transform: lowercase;
+
+}
+
+h4
+
+h5
 
 
-
-
+.page-header{
+    background: #302;
+    color: yellow;
+    padding: 1em;
+    position: fixed;
+}
 
 
 
