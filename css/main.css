@@ -128,8 +128,17 @@ h5
     position: fixed;
 }
 
+.about{
+    text-align: center;
+}
 
 
+.projects{
+    position: relative;
+    width: 50%;
+    float: right;
+
+}
 
 
 
