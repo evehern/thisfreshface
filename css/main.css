@@ -127,7 +127,6 @@ h5
 
 #container {
     background-color: red;
-    background-image: url(../img/colorblock.jpg);
     z-index: -5;
     background-width: 100%;
     background-height: 500px;
