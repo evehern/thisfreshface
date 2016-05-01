@@ -138,6 +138,7 @@ h5
     background-color: yellow;
     background-size: 90px x 80px;
     text-align: right;
+    text-decoration: none;
 
 }
 
@@ -216,7 +217,7 @@ li a {
 
 
 .hugequote{
-    font-size: 8em;
+    font-size: 5em;
     text-align: center;
 }
 .image1{
