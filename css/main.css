@@ -102,7 +102,7 @@ html{
 }
 
 body{
-    padding-top: 1.2em;
+    padding: none;
 }
 
 h1{
@@ -113,6 +113,7 @@ h1{
     padding-top: 50px;
     margin: 0;
     width:20%;
+
 }
 
 h2 {
@@ -131,15 +132,21 @@ h5
 }
 
 #container {
+    padding-bottom: 1em;
+    padding-left: 2em;
+    border-style: solid;
+    border-width: 15px;
+    border-color: white;
     background-color: yellow;
     z-index: -5;
-    background-width: 100%;
-    background-height: 500px;
+    background-width: 200%;
+    background-height: 900px;
 }
 
 .btn{
+    display: inline-block;
     font-size: 1.2em;
-    border: 0.125em solid #321;
+    border: 0.125em solid #805;
     padding: 0.75em 1em;
     text-decoration: none;
     color: #000;
@@ -151,6 +158,7 @@ h5
 }
 .secondheader{
     text-align: center;
+    padding-top: 3em
 }
 
 
