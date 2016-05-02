@@ -101,8 +101,19 @@ html{
     box-sizing: inherit;
 }
 
+@font-face {
+    font-family: Avenir LT Medium;
+    src: url(../fonts/AvenirLTStd-Medium.woff);
+}
+
+@font-face {
+    font-family: Avenir LT Heavy;
+    src: url(../fonts/AvenirLTStd-Heavy.woff);
+}
+
 body{
     padding: none;
+    font-family: "Avenir LT Medium";
 }
 
 h1{
@@ -124,9 +135,11 @@ h2 {
 
 }
 
-h3{
+h3 {
     font-size: 60px;
 }
+
+h4
 
 h5
 
@@ -134,13 +147,13 @@ h5
     list-style-type:none;
 }
 
-#create{
+#create {
     color: white;
     text-align: center;
     margin-top: 20%;
 }
 
-#sub_create{
+#sub_create {
     font-size: 25px;
 }
 
@@ -158,55 +171,121 @@ h5
     border-color: white;
     text-align: right;
     text-decoration: none;
-    background-color: #C56395;
+
+    background-color: #ec0085;
+
 }
 
 .btn{
     display: inline-block;
     font-size: 1.2em;
-    border: 0.125em solid #C56395;
+    border: 0.125em solid #ec0085;
     padding: 0.75em 1em;
     text-decoration: none;
     background-color: white;
-    color: #C56395;
+    color: #ec0085;
+    margin-bottom: 70px;
 }
 
 .btn:hover{
-    background: #C56395;
+    background: #ec0085;
     color: white;
+}
+
+#btncontainer {
+    width: 100%;
+    padding-left: 42%;
+    padding-right: 44%;
+    margin-top: 50px;
 }
 .secondheader{
     text-align: center;
     padding-top: 50em
 }
 
-.page-header{
+.page-header {
     height: 50px;
-}
 
+}
 .about{
     text-align: center;
     padding-right: 37%;
     padding-left: 37%;
 }
-#fresh{
-    color: #C56395;
+
+#fresh {
+    color: #ec0085;
     font-size: 35px;
 }
-
-#passion{
+#passion {
     font-size: 30px;
 }
-.creative{
+
+.creative {
     color: gray;
-    font-size: 25px;
+    font-size: 20px;
 }
-.creative_v2{
+
+.creative_v2 {
     color: gray;
     font-size: 16px;
     padding-right: 70px;
 }
-#zero_one{
+
+.creative_v3 {
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+}
+
+#box {
+    width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: center;
+}
+
+#contact {
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+#hello {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.blackbox {
+    height: 30vh;
+    background-color: #2A2A2A;
+    background-width: 95vw;
+    background-height: 30vh;
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+
+#bb_text {
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+#checkit {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+#busy {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#zero_one {
+    font-family: "Avenir LT Heavy";
     width: 100%;
     position: static;
     font-size: 120px;
@@ -215,81 +294,150 @@ h5
     margin: 0;
     padding: 0;
 }
-#UX{
+
+#zero_two {
+    font-family: "Avenir LT Heavy";
     width: 100%;
-    text-align: left;
-    font-size: 50px;
-    float: left;
+    position: static;
+    font-size: 120px;
+    color: black;
+    float: right;
+    margin: 0;
+    padding: 0;
 }
 
-#strat{
+#technology {
+    width: 100%;
+    text-align: left;
+    font-size: 45px;
+    float: left;
+    text-transform: none;
+}
+
+#UX {
+    width: 100%;
+    text-align: left;
+    font-size: 45px;
+    float: left;
+    text-transform: none;
+}
+
+#strat {
     width: 50%;
     float: left;
     text-align: left;
     padding-left: 50px;
     height: 50vh;
+    overflow: scroll;
 }
 
-#start_img{
+#right-side-text {
     width: 50%;
     float: right;
+    text-align: left;
+    padding-left: 30px;
+    height: 50vh;
+    overflow: scroll;
+}
+
+#strat_img {
+    width: 50%;
+    float:right;
     height: 50vh;
     background-image:url(../img/image1.png);
 }
 
-#NHS{
+#timely_img {
+    width: 50%;
+    float:right;
+    height: 50vh;
+    background-image:url(../img/image3.png);
+}
+
+#timely_img:hover {
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#strat_img:hover {
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#design_img {
+    width: 50%;
+    float:left;
+    height: 50vh;
+    background-image:url(../img/image2.png);    
+}
+
+#design_img:hover {
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+#design {
+    padding: 0;
+    width: 100%;
+    text-align: left;
+    font-size: 45px;
+    float: left;
+    text-transform: none;
+}
+
+#NHS {
     color: white;
     font-size: 60px;
     text-align: center;
+    text-transform: uppercase;
+    text-shadow:
+   -1px -1px 0 #C0C0C0, 
+    1px -1px 0 #C0C0C0,
+    -1px 1px 0 #C0C0C0,
+     1px 1px 0 #C0C0C0
 }
 
-#project{
+#flash {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    text-transform: none;
+    text-shadow:
+   -1px -1px 0 #C0C0C0,  
+    1px -1px 0 #C0C0C0,
+    -1px 1px 0 #C0C0C0,
+     1px 1px 0 #C0C0C0
+}
+
+#project {
     color: white;
     font-size: 40px;
     text-align: center;
+    text-shadow:
+   -1px -1px 0 #C0C0C0,  
+    1px -1px 0 #C0C0C0,
+    -1px 1px 0 #C0C0C0,
+     1px 1px 0 #C0C0C0
 }
 
-.nav{
+.nav {
     font-size: 20px;
     text-decoration: none;
     color: white;
     margin-top: 50px;
 }
-
-.project1{
-    display: block;
-    position: relative;
-    width: 100%;
-    text-align: left;
-    padding-top: 10em;
-}
-
-.projects img {
-    position: relative;
-    z-index: -10;
-    text-align: left;
-}
-
-#image1 {
-    display: inline;
-    width: 40%;
-    height: 400px;
-    float: right;
-}
-
-#image2 {
-    width: 40%;
-    height: 400px;
-    float: left;
-}
-
-#image3{
-    width: 40%;
-    height: 400px;
-    float: right;
-}
-
-
 
 ul {
     list-style-type:none;
@@ -308,13 +456,16 @@ li a {
 
 
 .hugequote{
+    font-family: "Avenir LT Heavy";
+    margin-top: 80px;
+    padding-left: 30%;
+    padding-right: 30%;
     font-size: 5em;
     text-align: center;
+    color: #ec0085;
 }
-.image1{
-    float: right;
-    margin-right: 10px;
-}
+
+
 
 
 
