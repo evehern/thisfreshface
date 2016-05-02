@@ -113,6 +113,7 @@ h1{
     padding-top: 50px;
     margin: 0;
     width:20%;
+    color: white;
 
 }
 
@@ -123,7 +124,9 @@ h2 {
 
 }
 
-h4
+h3{
+    font-size: 60px;
+}
 
 h5
 
@@ -131,13 +134,31 @@ h5
     list-style-type:none;
 }
 
+#create{
+    color: white;
+    text-align: center;
+    margin-top: 20%;
+}
+
+#sub_create{
+    font-size: 25px;
+}
+
 #container {
+
+    background-width: 95vw;
+    width: 95vw;
+    margin-left: 2vw;
+    margin-top: 2vh;
+
+    background-height: 95vh;
+    height: 95vh;
     border-style: solid;
     border-width: 55px, 25px, 25px, 25px;
     border-color: white;
     text-align: right;
     text-decoration: none;
-
+    background-color: #C56395;
 }
 
 .btn{
