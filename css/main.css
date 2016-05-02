@@ -164,10 +164,11 @@ h5
 .btn{
     display: inline-block;
     font-size: 1.2em;
-    border: 0.125em solid #805;
+    border: 0.125em solid #C56395;
     padding: 0.75em 1em;
     text-decoration: none;
-    color: #000;
+    background-color: white;
+    color: #C56395;
 }
 
 .btn:hover{
